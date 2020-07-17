@@ -1,0 +1,240 @@
+Business.DeclareBankruptcy business.decbank
+Business.DeclareBankruptcy_Organization business.decbank_perorggpe
+Business.DeclareBankruptcy_Place business.decbank_plc
+
+Business.End business.endbus
+Business.End_Place business.endbus_plc
+Business.End_Organization business.endbus_org
+
+Business.Merge business.merge
+Business.Merge_Organization business.merge_org
+Business.Merge_Place business.merge_plc
+
+Business.Start business.startbus
+Business.Start_Agent business.startbus_perorggpe
+Business.Start_Organization business.startbus_org
+Business.Start_Place business.startbus_plc
+
+Conflict.Attack conflict.attack
+Conflict.Attack_Attacker conflict.attack_perorggpe
+Conflict.Attack_Target conflict.attack_tarperplcethg
+Conflict.Attack_Instrument conflict.attack_weavehthg
+Conflict.Attack_Place conflict.attack_plc
+
+Conflict.Demonstrate conflict.demonstrate
+Conflict.Demonstrate_Demonstrator conflict.demonstrate_perorg
+Conflict.Demonstrate_Place conflict.demonstrate_plc
+
+Contact.Broadcast contact.broadcast
+Contact.Broadcast_Broadcaster contact.broadcast_perorggpe
+Contact.Broadcast_Place contact.broadcast_plc
+
+Contact.Contact contact.contact
+Contact.Contact_Participant contact.contact_perorggpe
+Contact.Contact_Place contact.contact_plc
+
+Contact.Correspondence contact.corresp
+Contact.Correspondence_Participant contact.corresp_perorggpe
+Contact.Correspondence_Place contact.corresp_plc
+
+Contact.Meet contact.meet
+Contact.Meet_Participant contact.meet_perorggpe
+Contact.Meet_Place contact.meet_plc
+
+Existence.DamageDestroy existence.damagedestroy
+Existence.DamageDestroy_Agent existence.damagedestroy_agentdamagedestroy
+Existence.DamageDestroy_Victim existence.damagedestroy_victimdamagedestroy
+Existence.DamageDestroy_Instrument existence.damagedestroy_instrument
+Existence.DamageDestroy_Place existence.damagedestroy_plc
+
+Government.Agreements government.agreements
+Government.Agreements_Place government.agreements_plc
+Government.Agreements_Signer government.agreements_signer
+
+Government.Legislate government.legislate
+Government.Legislate_Place government.legislate_plc
+
+Government.Spy government.spy
+Government.Spy_Agent government.spy_agentspy
+Government.Spy_Beneficiary government.spy_benespy
+Government.Spy_Place government.spy_plc
+Government.Spy_Target government.spy_targetspy
+
+Government.Vote government.vote
+Government.Vote_Candidate government.vote_candidate
+Government.Vote_Place government.vote_plc
+Government.Vote_Voter government.vote_voter
+
+Inspection.Artifact inspection.artifact
+Inspection.Artifact_Inspector inspection.artifact_inspector
+Inspection.Artifact_Place inspection.artifact_plc
+Inspection.Artifact_Thing inspection.artifact_thginspectionartifact
+
+Inspection.People inspection.people
+Inspection.People_Inspector inspection.people_inspector
+Inspection.People_Place inspection.people_per
+Inspection.People_Person inspection.people_plc
+
+Justice.Acquit justice.acquit
+Justice.Acquit_Adjudicator justice.acquit_crtjdg
+Justice.Acquit_Defendant justice.acquit_dfdn
+Justice.Acquit_Place justice.acquit_plc
+
+Justice.Appeal justice.appeal
+Justice.Appeal_Adjudicator justice.appeal_crtjdg
+Justice.Appeal_Defendant justice.appeal_dfdn
+Justice.Appeal_Place justice.appeal_plc
+Justice.Appeal_Prosecutor justice.appeal_pros
+
+Justice.ArrestJail justice.arrestjail
+Justice.ArrestJail_Agent justice.arrestjail_perorggpe
+Justice.ArrestJail_Person justice.arrestjail_per
+Justice.ArrestJail_Place justice.arrestjail_plc
+
+Justice.ChargeIndict justice.chargeindict
+Justice.ChargeIndict_Adjudicator justice.chargeindict_crtjdg
+Justice.ChargeIndict_Defendant justice.chargeindict_dfdn
+Justice.ChargeIndict_Place justice.chargeindict_plc
+Justice.ChargeIndict_Prosecutor justice.chargeindict_pros
+
+Justice.Convict justice.convict
+Justice.Convict_Adjudicator justice.convict_crtjdg
+Justice.Convict_Defendant justice.convict_dfdn
+Justice.Convict_Place justice.convict_plc
+
+Justice.Execute justice.execute
+Justice.Execute_Agent justice.execute_perorggpe
+Justice.Execute_Person justice.execute_per
+Justice.Execute_Place justice.execute_plc
+
+Justice.Extradite justice.extradite
+Justice.Extradite_Agent justice.extradite_perorggpe
+Justice.Extradite_Destination justice.extradite_plcto
+Justice.Extradite_Origin justice.extradite_plcfrom
+Justice.Extradite_Person justice.extradite_per
+
+Justice.Fine justice.fine
+Justice.Fine_Adjudicator justice.fine_crtjdg
+Justice.Fine_Defendant justice.fine_dfdn
+Justice.Fine_Place justice.fine_plc
+
+Justice.Investigate justice.investigate
+Justice.Investigate_Investigatee justice.investigate_investigatee
+Justice.Investigate_Investigator justice.investigate_investigator
+Justice.Investigate_Place justice.investigate_plc
+
+Justice.Pardon justice.pardon
+Justice.Pardon_Adjudicator justice.pardon_crtjdg
+Justice.Pardon_Defendant justice.pardon_dfdn
+Justice.Pardon_Place justice.pardon_plc
+
+Justice.ReleaseParole justice.releaseparole
+Justice.ReleaseParole_Agent justice.releaseparole_perorggpe
+Justice.ReleaseParole_Person justice.releaseparole_per
+Justice.ReleaseParole_Place justice.releaseparole_plc
+
+Justice.Sentence justice.sentence
+Justice.Sentence_Adjudicator justice.sentence_crtjdg
+Justice.Sentence_Defendant justice.sentence_dfdn
+Justice.Sentence_Place justice.sentence_plc
+
+Justice.Sue justice.sue
+Justice.Sue_Adjudicator justice.sue_crtjdg
+Justice.Sue_Defendant justice.sue_dfdn
+Justice.Sue_Place justice.sue_plc
+Justice.Sue_Plaintiff justice.sue_plnf
+
+Justice.TrialHearing justice.trialhearing
+Justice.TrialHearing_Adjudicator justice.trialhearing_crtjdg
+Justice.TrialHearing_Defendant justice.trialhearing_dfdn
+Justice.TrialHearing_Place justice.trialhearing_plc
+Justice.TrialHearing_Prosecutor justice.trialhearing_pros
+
+Life.BeBorn life.beborn
+Life.BeBorn_Person life.beborn_per
+Life.BeBorn_Place life.beborn_plc
+
+Life.Die life.die
+Life.Die_Agent life.die_perorggpe
+Life.Die_Instrument life.die_weavehthg
+Life.Die_Place life.die_plc
+Life.Die_Victim life.die_per
+
+Life.Divorce life.divorce
+Life.Divorce_Person life.divorce_per
+Life.Divorce_Place life.divorce_plc
+
+Life.Injure life.injure
+Life.Injure_Agent life.injure_perorggpe
+Life.Injure_Instrument life.injure_weavehthg
+Life.Injure_Place life.injure_plc
+Life.Injure_Victim life.injure_per
+
+Life.Marry life.marry
+Life.Marry_Person life.marry_per
+Life.Marry_Place life.marry_plc
+
+Manufacture.Artifact manufacture.artifact
+Manufacture.Artifact_Artifact manufacture.artifact_weavehthg
+Manufacture.Artifact_Manufacturer manufacture.artifact_perorggpe
+Manufacture.Artifact_Place manufacture.artifact_plc
+
+Movement.TransportArtifact movement.transart
+Movement.TransportArtifact_Agent movement.transart_perorggpe
+Movement.TransportArtifact_Artifact movement.transart_thg
+Movement.TransportArtifact_Destination movement.transart_plcto
+Movement.TransportArtifact_Instrument movement.transart_vehwea
+Movement.TransportArtifact_Origin movement.transart_plcfrom
+
+Movement.TransportPerson movement.transper
+Movement.TransportPerson_Agent movement.transper_perorggpe
+Movement.TransportPerson_Destination movement.transper_plcto
+Movement.TransportPerson_Instrument movement.transper_vehwea
+Movement.TransportPerson_Origin movement.transper_plcfrom
+Movement.TransportPerson_Person movement.transper_per
+
+Personnel.Elect personnel.elect
+Personnel.Elect_Elect personnel.elect_per
+Personnel.Elect_Elector personnel.elect_perorggpe
+Personnel.Elect_Place personnel.elect_plc
+
+Personnel.EndPosition personnel.endpnl
+Personnel.EndPosition_Organization personnel.endpnl_orggpe
+Personnel.EndPosition_Person personnel.endpnl_per
+Personnel.EndPosition_Place personnel.endpnl_plc
+
+Personnel.Nominate personnel.nominate
+Personnel.Nominate_Nominator personnel.nominate_perorggpe
+Personnel.Nominate_Nominee personnel.nominate_per
+Personnel.Nominate_Place personnel.nominate_plc
+
+Personnel.StartPosition personnel.startpnl
+Personnel.StartPosition_Organization personnel.startpnl_orggpe
+Personnel.StartPosition_Person personnel.startpnl_per
+Personnel.StartPosition_Place personnel.startpnl_plc
+
+Transaction.Transaction transaction.transaction
+Transaction.Transaction_Beneficiary transaction.transaction_bene
+Transaction.Transaction_Giver transaction.transaction_gvr
+Transaction.Transaction_Place transaction.transaction_plc
+Transaction.Transaction_Recipient transaction.transaction_rcvr
+
+Transaction.TransferControl transaction.transfercontrol
+Transaction.TransferControl_Beneficiary transaction.transfercontrol_benetransfercontrol
+Transaction.TransferControl_Giver transaction.transfercontrol_gvrtransfercontrol
+Transaction.TransferControl_Place transaction.transfercontrol_plc
+Transaction.TransferControl_Recipient transaction.transfercontrol_rcvrtransfercontrol
+Transaction.TransferControl_Territory transaction.transfercontrol_territory
+
+Transaction.TransferMoney transaction.transmon
+Transaction.TransferMoney_Beneficiary transaction.transmon_bene
+Transaction.TransferMoney_Giver transaction.transmon_gvr
+Transaction.TransferMoney_Place transaction.transmon_plc
+Transaction.TransferMoney_Recipient transaction.transmon_rcvr
+
+Transaction.TransferOwnership transaction.transown
+Transaction.TransferOwnership_Beneficiary transaction.transown_bene
+Transaction.TransferOwnership_Giver transaction.transown_gvr
+Transaction.TransferOwnership_Place transaction.transown_plc
+Transaction.TransferOwnership_Recipient transaction.transown_rcvr
+Transaction.TransferOwnership_Thing transaction.transown_weavehorgthg

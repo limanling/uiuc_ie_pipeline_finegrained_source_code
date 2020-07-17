@@ -1,0 +1,4 @@
+numpy
+flask
+sklearn
+tensorflow==1.0.0

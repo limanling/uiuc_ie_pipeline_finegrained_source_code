@@ -1,0 +1,7 @@
+docker run -v `pwd`:`pwd` -w `pwd` -i -t limanling/uiuc_ie_m18 \
+   /opt/conda/envs/ru_event/bin/python \
+   -u /ru_event/ru_event_backend.py \
+   --ltf_folder_path ${ltf} \
+   --input_edl_bio_file_path ${edl_bio} \
+   --input_rsd_folder_path ${rsd} \
+   --entity_cs_file_path ${edl_cs}

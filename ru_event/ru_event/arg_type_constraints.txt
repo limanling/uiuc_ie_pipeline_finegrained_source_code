@@ -1,0 +1,695 @@
+DamagerDestroyer	per, org, gpe, sid
+Damager	per, org, gpe, sid
+Destroyer	per, org, gpe, sid
+Attacker	per, org, gpe, sid
+Attacker	per, org, gpe, sid
+Attacker	per, org, gpe, sid
+Attacker	per, org, gpe, sid
+Attacker	per, org, gpe, sid
+Attacker	per, org, gpe, sid
+Attacker	per, org, gpe, sid
+Attacker	per, org, gpe, sid
+Attacker	per, org, gpe, sid
+Attacker	per, org, gpe, sid
+Attacker	per, org, gpe, sid
+Attacker	per, org, gpe, sid
+Demonstrator	per, org, sid
+Demonstrator	per, org, sid
+Yielder	per, org, gpe, sid
+Retreater	per, org, gpe, sid
+Surrenderer	per, org, gpe, sid
+Participant	per, org, gpe, sid
+Participant	per, org, gpe, sid
+Participant	per, org, gpe, sid
+Communicator	per, org, gpe, sid
+Communicator	per, org, gpe, sid
+Communicator	per, org, gpe, sid
+Communicator	per, org, gpe, sid
+Communicator	per, org, gpe, sid
+Communicator	per, org, gpe, sid
+Communicator	per, org, gpe, sid
+Communicator	per, org, gpe, sid
+Participant	per, org, gpe, sid
+Participant	per, org, gpe, sid
+Participant	per, org, gpe, sid
+Participant	per, org, gpe, sid
+Participant	per, org, gpe, sid
+Communicator	per, org, gpe, sid
+Communicator	per, org, gpe, sid
+Participant	per, org, gpe, sid
+Participant	per, org, gpe, sid
+Participant	per, org, gpe, sid
+Communicator	per, org, gpe, sid
+Communicator	per, org, gpe, sid
+Communicator	per, org, gpe, sid
+Communicator	per, org, gpe, sid
+Communicator	per, org, gpe, sid
+Communicator	per, org, gpe, sid
+Communicator	per, org, gpe, sid
+Communicator	per, org, gpe, sid
+Communicator	per, org, gpe, sid
+Communicator	per, org, gpe, sid
+Communicator	per, org, gpe, sid
+Communicator	per, org, gpe, sid
+Communicator	per, org, gpe, sid
+Communicator	per, org, gpe, sid
+DriverPassenger	per
+FireExplosionObject	bal, veh, wea, fac, loc, com
+Participant	gpe, sid
+Participant	gpe, sid
+RejecterNullifier	gpe, sid
+Violator	gpe, sid
+GPE	gpe
+Participant	gpe
+GPE	gpe
+GovernmentBody	org
+Spy	per, org, gpe, sid
+Voter	per, sid
+Voter	per 
+Preventer	per, org, gpe, sid
+Observer	per, org, gpe, sid
+Inspector	per, org, gpe, sid
+Monitor	per, org, gpe, sid
+Inspector	per, org, gpe, sid
+Jailer	per, org, gpe, sid
+Prosecutor	per, org, gpe, sid
+Prosecutor	per, org, gpe, sid
+Prosecutor	per, org, gpe, sid
+Investigator	per, org, gpe, sid
+Investigator	per, org, gpe, sid
+JudgeCourt	per, org, gpe, sid
+JudgeCourt	per, org, gpe, sid
+Executioner	per, org, gpe, sid
+Extraditer	per, org, gpe, sid
+Victim	per
+Killer	per, org, gpe, sid
+Victim	per
+Victim	per
+Victim	per
+Victim	per
+Injurer	per, org, gpe, sid
+Manufacturer	per, org, gpe, sid
+Manufacturer	per, org, gpe, sid
+Manufacturer	per, org, gpe, sid
+Manufacturer	per, org, gpe, sid
+Transporter	per, org, gpe, sid
+Transporter	per, org, gpe, sid
+Transporter	per, org, gpe, sid
+Artifact	bal, com, fac, loc, mon, veh, wea
+Transporter	per, org, gpe, sid
+Transporter	per, org, gpe, sid
+Transporter	per, org, gpe, sid
+Preventer	per, org, gpe, sid
+Preventer	per, org, gpe, sid
+Transporter	per, org, gpe, sid
+Transporter	per, org, gpe, sid
+Transporter	per, org, gpe, sid
+Transporter	per, org, gpe, sid
+Transporter	per, org, gpe, sid
+Transporter	per, org, gpe, sid
+Transporter	per, org, gpe, sid
+Passenger	per
+Granter	per, org, gpe, sid
+Transporter	per, org, gpe, sid
+Preventer	per, org, gpe, sid
+Preventer	per, org, gpe, sid
+Transporter	per, org, gpe, sid
+Transporter	per, org, gpe, sid
+Voter	per, sid
+Voter	per, sid
+Employee	per
+Employee	per
+Employee	per
+Employee	per
+Employee	per
+Participant	per, org, gpe, sid
+Preventer	per, org, gpe, sid
+Giver	per, org, gpe, sid
+Giver	per, org, gpe, sid
+Giver	per, org, gpe, sid
+Preventer	per, org, gpe, sid
+Giver	per, org, gpe, sid
+Giver	per, org, gpe, sid
+Giver	per, org, gpe, sid
+Giver	per, org, gpe, sid
+Giver	per, org, gpe, sid
+Preventer	per, org, gpe, sid
+Giver	per, org, gpe, sid
+Giver	per, org, gpe, sid
+Giver	per, org, gpe, sid
+Artifact	bal, com, fac, loc, mon, veh, wea
+Artifact	bal, com, fac, loc, mon, veh, wea
+Artifact	bal, com, fac, loc, mon, veh, wea
+Target	loc, gpe, fac, per, com, veh, wea, sid
+Target	loc, gpe, fac, per, com, veh, wea, sid
+Target	loc, gpe, fac, per, com, veh, wea, sid
+Target	loc, gpe, fac, per, com, veh, wea, sid
+Target	loc, gpe, fac, per, com, veh, wea, sid
+Target	per
+Target	loc, gpe, fac, per, com, veh, wea, sid
+Target	loc, gpe, fac, per, com, veh, wea, sid
+Target	loc, gpe, fac, per, com, veh, wea, sid
+Target	per
+Target	loc, gpe, fac, per, com, veh, wea, sid
+Target	per
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Recipient	loc, gpe, fac, per, com, veh, wea, sid
+Origin	loc, gpe, fac, per, com, veh, wea, sid
+Recipient	per, org, gpe, sid
+Participant	per, org, gpe, sid
+Participant	per, org, gpe, sid
+Participant	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Participant	per, org, gpe, sid
+Participant	per, org, gpe, sid
+Participant	per, org, gpe, sid
+Participant	per, org, gpe, sid
+Participant	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Participant	per, org, gpe, sid
+Participant	per, org, gpe, sid
+Participant	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Vehicle	veh
+Instrument	com, veh, wea, fac
+Participant	gpe, sid
+Participant	gpe, sid
+OtherParticipant	gpe, sid
+OtherParticipant	gpe, sid
+Founder	per, org, gpe, sid
+Participant	gpe
+Founder	per, org, gpe, sid
+Law	law
+ObservedEntity	per, org, gpe, sid
+Candidate	law, per, sid
+Candidate	law, per, sid
+Voter	per
+ObservedEntity	per, org, gpe, sid, com, veh, wea, fac, bal, mon, crm
+InspectedEntity	per, org, sid
+MonitoredEntity	per, gpe, sid
+InspectedEntity	bal, com, veh, wea, fac, mon
+Detainee	per
+Defendant	per, org, gpe, sid
+Defendant	per, org, gpe, sid
+Defendant	per, org, gpe, sid
+Defendant	per, org, gpe, sid
+Defendant	per, org, gpe, sid
+Defendant	per, org, gpe, sid
+Defendant	per, org, gpe, sid
+Defendant	per
+Defendant	per
+Place	loc, gpe, fac
+Victim	per
+Place	loc, gpe, fac
+Injurer	per, org, gpe, sid
+Place	loc, gpe, fac
+	
+Victim	per
+Artifact	com
+Artifact	fac
+Artifact	bal, com, mon, veh, wea
+Artifact	bal, com, mon, veh, wea
+Artifact	bal, com, fac, loc, mon, veh, wea
+Artifact	bal, com, fac, loc, mon, veh, wea
+Artifact	bal, com, fac, loc, mon, veh, wea
+Origin	loc, gpe, fac
+Artifact	bal, com, fac, loc, mon, veh, wea
+Artifact	bal, com, fac, loc, mon, veh, wea
+Artifact	bal, com, fac, loc, mon, veh, wea
+Transporter	per, org, gpe, sid
+Transporter	per, org, gpe, sid
+Artifact	bal, com, fac, loc, mon, veh, wea
+Artifact	bal, com, fac, loc, mon, veh, wea
+Artifact	bal, com, fac, loc, mon, veh, wea
+Passenger	per
+Passenger	per
+Passenger	per
+Passenger	per
+Origin	loc, gpe, fac
+Transporter	per, org, gpe, sid
+Passenger	per
+Transporter	per, org, gpe, sid
+Transporter	per, org, gpe, sid
+Vehicle	veh
+Passenger	per
+Candidate	per
+Candidate	per
+PlaceOfEmployment	gpe, org
+PlaceOfEmployment	gpe, org
+PlaceOfEmployment	gpe, org
+PlaceOfEmployment	gpe, org
+PlaceOfEmployment	gpe, org
+Participant	per, org, gpe, sid
+Giver	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Giver	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Giver	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Instrument	com, veh, wea
+Instrument	com, veh, wea
+Instrument	com, veh, wea
+Instrument	com, veh, wea
+Instrument	com, veh, wea
+Instrument	com, wea
+Instrument	com, veh, wea
+Instrument	com, veh, wea
+Instrument	com, veh, wea
+Instrument	com, veh, wea
+Instrument	com, veh, wea
+Instrument	com, veh, wea
+Instrument	com, veh, wea
+Instrument	com, veh, wea
+Instrument	com, veh, wea
+	
+	
+Place	loc, gpe, fac
+Destination	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Deceased	per
+Deceased	per
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+CrashObject	com, fac, loc, per, veh, wea
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Beneficiary	per, org, gpe, sid
+Ballot	bal
+Ballot	bal
+Candidate	per,  law, sid
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Crime	crm
+JudgeCourt	per, org, gpe, sid
+JudgeCourt	per, org, gpe, sid
+JudgeCourt	per, org, gpe, sid
+Place	loc, gpe, fac
+Crime	crm
+Crime	crm
+Crime	crm
+Crime	crm
+Crime	crm
+	
+Instrument	bal, com, veh, wea, fac, mon
+	
+Place	loc, gpe, fac
+	
+	
+Instrument	bal, com, veh, wea, fac, mon
+Instrument	com, veh, wea, fac
+Instrument	com, veh, wea, fac
+Instrument	com, veh, wea, fac
+Instrument	com, veh, wea, fac
+Vehicle	veh
+Vehicle	veh
+Vehicle	veh
+Destination	loc, gpe, fac
+Origin	loc, gpe, fac
+HidingPlace	loc, gpe, fac
+Vehicle	veh
+Artifact	bal, com, fac, loc, mon, veh, wea
+Artifact	bal, com, fac, loc, mon, veh, wea
+Vehicle	veh
+Vehicle	veh
+Vehicle	veh
+Vehicle	veh
+Vehicle	veh
+Vehicle	veh
+Vehicle	veh
+Destination	loc, gpe, fac
+Passenger	per
+HidingPlace	loc, gpe, fac
+Passenger	per
+Passenger	per
+Origin	loc, gpe, fac
+Vehicle	veh
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Beneficiary	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Beneficiary	per, org, gpe, sid
+Beneficiary	per, org, gpe, sid
+Beneficiary	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Beneficiary	per, org, gpe, sid
+Beneficiary	per, org, gpe, sid
+Beneficiary	per, org, gpe, sid
+Beneficiary	per, org, gpe, sid
+Beneficiary	per, org, gpe, sid
+Recipient	per, org, gpe, sid
+Beneficiary	per, org, gpe, sid
+Beneficiary	per, org, gpe, sid
+Beneficiary	per, org, gpe, sid
+Place	fac, loc, gpe
+Place	fac, loc, gpe
+Place	fac, loc, gpe
+Place	fac, loc, gpe
+Place	fac, loc, gpe
+Place	fac, loc, gpe
+Place	fac, loc, gpe
+Place	fac, loc, gpe
+Place	fac, loc, gpe
+Place	fac, loc, gpe
+Place	fac, loc, gpe
+Place	fac, loc, gpe
+Place	fac, loc, gpe
+Place	fac, loc, gpe
+Place	fac, loc, gpe
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+Place	loc, gpe, fac
+	
+	
+	
+	
+	
+	
+	
+	
+	
+Place	loc, gpe, fac
+Result	res
+Result	res
+Ballot	bal
+	
+	
+	
+	
+Place	loc, gpe, fac
+Crime	crm
+Crime	crm
+Crime	crm
+	
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Origin	loc, gpe, fac
+	
+Place	loc, gpe, fac
+	
+	
+	
+	
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Origin	loc, gpe, fac
+Origin	loc, gpe, fac
+Origin	loc, gpe, fac
+	
+Destination	loc, gpe, fac
+Vehicle	veh
+Origin	loc, gpe, fac
+Origin	loc, gpe, fac
+Origin	loc, gpe, fac
+Origin	loc, gpe, fac
+Origin	loc, gpe, fac
+Origin	loc, gpe, fac
+Origin	loc, gpe, fac
+Origin	loc, gpe, fac
+Origin	loc, gpe, fac
+Origin	loc, gpe, fac
+	
+Origin	loc, gpe, fac
+Vehicle	veh
+Origin	loc, gpe, fac
+Origin	loc, gpe, fac
+Destination	loc, gpe, fac
+Origin	loc, gpe, fac
+	
+	
+	
+	
+	
+	
+	
+Place	loc, gpe, fac
+ArtifactMoney	com, fac, mon, veh, wea
+Place	loc, gpe, fac
+Money	mon
+Money	mon
+Money	mon
+Money	mon
+Money	mon
+Money	mon
+Artifact	bal, com, fac, veh, wea, org
+Artifact	bal, com, fac, veh, wea, org
+Artifact	bal, com, fac, veh, wea, org
+Artifact	bal, com, fac, veh, wea, org
+Artifact	bal, com, fac, veh, wea, org
+TerritoryOrFacility	loc, gpe, fac
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+Artifact	bal, com, fac, loc, mon, veh, wea
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+	
+	
+	
+	
+	
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+	
+	
+	
+	
+	
+Destination	loc, gpe, fac
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+Destination	loc, gpe, fac
+Destination	loc, gpe, fac
+Destination	loc, gpe, fac
+	
+	
+Origin	loc, gpe, fac
+Destination	loc, gpe, fac
+Destination	loc, gpe, fac
+Destination	loc, gpe, fac
+Destination	loc, gpe, fac
+Destination	loc, gpe, fac
+Destination	loc, gpe, fac
+Destination	loc, gpe, fac
+Destination	loc, gpe, fac
+Destination	loc, gpe, fac
+Destination	loc, gpe, fac
+	
+Destination	loc, gpe, fac
+Origin	loc, gpe, fac
+Destination	loc, gpe, fac
+Destination	loc, gpe, fac
+	
+Destination	loc, gpe, fac
+	
+	
+	
+	
+	
+	
+	
+	
+Place	loc, gpe, fac
+	
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac
+Place	loc, gpe, fac

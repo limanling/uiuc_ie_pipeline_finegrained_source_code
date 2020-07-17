@@ -1,0 +1,103 @@
+nist.removePrefLabel: true
+nist.removeSelfRelations: true
+nist.removeIllegalHasNames: false
+nist.adjustOutOfBoundsConfidences: true
+nist.restoreSplitEntitiesAndEvents: true
+nist.clusterIdenticalRelations: true
+nist.addSingletonClusters: true
+nist.collapseColumbiaClusters: false
+nist.truncateLongStrings: true
+nist.attachSourceDocuments: true
+nist.parentChildMapFilenames: %parentChildMapFilenames%
+nist.makeCompoundJustifications: true
+nist.propagateLinksToClusters: true
+nist.removeUnusedBlankStructures: true
+nist.blankStructureTypesToRemove: aida:Confidence,aida:PrivateData,aida:TextJustification,aida:ImageJustification,aida:AudioJustification,aida:KeyFrameVideoJustification,aida:ShotVideoJustification
+nist.addMissingInformativeJustifications: true
+nist.promoteConfidencesToTypeAssertions: true
+nist.fixAidaYear: true
+nist.addMissingTypeJustifications: true
+nist.keepOnlyHighestLinkConfidence: true
+nist.ensureRpiEntitiesHaveOwnClusters: true
+nist.setMissingTypeConfidencesTo1: true
+
+nist.mergeColumbiaRpiClusters: true
+# remove all Columbia grounding links with confidence below this
+nist.columbiaClusterThreshold: 0.8
+# reduce the confidence of all Columbia grounding links by multiplying by this factor
+nist.columbiaGroundingConfidenceDiscountFactor: 0.8
+
+nist.columbiaObjectCoreferenceThreshold: 0.8
+
+# remove all USC grounding links with confidence below this
+nist.uscClusterThreshold: 0.8
+# reduce the confidence of all USC grounding links by multiplying by this factor
+nist.uscGroundingConfidenceDiscountFactor: 0.8
+
+# params below all support mapVideoAsrJustifications (which also does OCR)
+nist.mapVideoAsrJustifications: true
+# work around buggy lines in master shot table
+nist.tolerateEmptyShotIntervals: true
+nist.knownLanguages: en,ru,uk
+nist.masterShotTable: %masterShotTable%
+nist.asr.languages: en
+nist.asr.en.mappingDirectory: %sourceDir%/en_asr_mapping
+nist.asr.en.ltfDir: %sourceDir%/en_asr
+nist.russianSampledOcrOutput: %sampledOcrDir%/ru.cleaned.csv
+nist.englishSampledOcrOutput: %sampledOcrDir%/en.cleaned.csv
+
+nist.makeRootDocumentIdsMatchTtlName: true
+nist.removeClustersWithNonExistentEntities: true
+
+# prefLabels are not allowed even without validation restrictions
+interta.removePrefLabel: true
+interta.removeSelfRelations: true
+interta.removeIllegalHasNames: false
+interta.adjustOutOfBoundsConfidences: true
+interta.restoreSplitEntitiesAndEvents: true
+interta.clusterIdenticalRelations: true
+interta.addSingletonClusters: true
+interta.collapseColumbiaClusters: false
+interta.truncateLongStrings: true
+interta.attachSourceDocuments: true
+interta.parentChildMapFilenames: %parentChildMapFilenames%
+interta.makeCompoundJustifications: true
+interta.propagateLinksToClusters: true
+interta.removeUnusedBlankStructures: true
+interta.blankStructureTypesToRemove: aida:Confidence,aida:PrivateData,aida:TextJustification,aida:ImageJustification,aida:AudioJustification,aida:KeyFrameVideoJustification,aida:ShotVideoJustification
+interta.addMissingInformativeJustifications: true
+interta.promoteConfidencesToTypeAssertions: true
+interta.fixAidaYear: true
+interta.addMissingTypeJustifications: true
+interta.keepOnlyHighestLinkConfidence: false
+interta.ensureRpiEntitiesHaveOwnClusters: true
+interta.setMissingTypeConfidencesTo1: true
+
+interta.mergeColumbiaRpiClusters: true
+
+# remove all Columbia grounding links with confidence below this
+interta.columbiaClusterThreshold: 0.8
+# reduce the confidence of all Columbia grounding links by multiplying by this factor
+interta.columbiaGroundingConfidenceDiscountFactor: 0.8
+
+# remove all USC grounding links with confidence below this
+interta.uscClusterThreshold: 0.8
+# reduce the confidence of all USC grounding links by multiplying by this factor
+interta.uscGroundingConfidenceDiscountFactor: 0.8
+
+interta.columbiaObjectCoreferenceThreshold: 0.8
+
+# params below all support mapVideoAsrJustifications (which also does OCR)
+interta.mapVideoAsrJustifications: true
+# work around buggy lines in master shot table
+interta.tolerateEmptyShotIntervals: true
+interta.knownLanguages: en,ru,uk
+interta.masterShotTable: %masterShotTable%
+interta.asr.languages: en
+interta.asr.en.mappingDirectory: %sourceDir%/en_asr_mapping
+interta.asr.en.ltfDir: %sourceDir%/en_asr
+interta.russianSampledOcrOutput: %sampledOcrDir%/ru.cleaned.csv
+interta.englishSampledOcrOutput: %sampledOcrDir%/en.cleaned.csv
+
+interta.makeRootDocumentIdsMatchTtlName: true
+interta.removeClustersWithNonExistentEntities: false
