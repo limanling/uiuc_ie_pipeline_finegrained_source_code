@@ -212,3 +212,6 @@ ru_event/ru_event/cnn_code/runs/ru_1535939310/summaries/train/*
 ru_event/uk_event/cnn_code/runs/uk_1535939547/summaries/train/*
 ru_event/uk_event/cnn_code/runs/*
 ru_event/ru_event/cnn_code/runs/*
+postprocessing/ELMoForManyLangs/eng.model/*
+postprocessing/ELMoForManyLangs/rus.model/*
+postprocessing/ELMoForManyLangs/ukr.model/*

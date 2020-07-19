@@ -27,6 +27,7 @@ RUN apt-get update --fix-missing && apt-get install -y \
     libxext6 \
     libxrender1 \
     wget \
+    unzip \
     libevent-dev \
     build-essential && \
     rm -rf /var/lib/apt/lists/*
@@ -78,6 +79,12 @@ ADD ./aida_utilities /aida_utilities
 ADD ./postprocessing /postprocessing
 RUN cd /postprocessing/AIDA-Interchange-Format-master/python && \
     /opt/conda/envs/py36/bin/python setup.py install
+
+RUN cd /postprocessing/ELMoForManyLangs && \
+    /opt/conda/envs/aida_entity/bin/python setup.py install
+RUN /opt/conda/envs/aida_entity/bin/pip install rdflib ujson
+RUN cd /postprocessing/AIDA-Interchange-Format-master/python && \
+    /opt/conda/envs/aida_entity/bin/python setup.py install
 
 RUN /opt/conda/bin/conda clean -tipsy
 

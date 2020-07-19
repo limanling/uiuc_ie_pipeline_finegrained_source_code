@@ -64,7 +64,7 @@ def edl(indir_ltf, indir_rsd, lang, edl_tab_nam, edl_tab_nom,
                                  'ru_nam_5type_hid', 'ru_nam_wv_hid',
                                  'uk_nam_5type_hid', 'uk_nam_wv_hid'
                                  ]:
-                hid_filepath = os.path.join(output_dir, hid_filetype+'.txt')
+                hid_filepath = os.path.join(output_dir, hid_filetype.replace('_hid', '.mention.hidden.txt'))
                 with codecs.open(hid_filepath, 'a', encoding="utf-8") as fw:
                     if hid_filetype in ans:
                         fw.write(ans[hid_filetype])

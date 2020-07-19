@@ -1,4 +1,5 @@
 import argparse
+import os
 
 # class ParentChildUtil(object):
 #     def __init__(self):
@@ -39,4 +40,8 @@ if __name__ == '__main__':
                         help='output_file')
     args = parser.parse_args()
 
-    write_date4stanford(args.parent_child_mapping_file, args.output_file, sorted=args.parent_child_mapping_file_sorted!=0)
+    if os.path.exists(args.parent_child_mapping_file):
+        write_date4stanford(args.parent_child_mapping_file, args.output_file, sorted=args.parent_child_mapping_file_sorted!=0)
+    else:
+        with open(args.output_file, 'w') as writer:
+            writer.write('\n')

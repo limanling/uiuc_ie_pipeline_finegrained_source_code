@@ -58,9 +58,9 @@ if __name__ == '__main__':
                         help='output directory after renaming (final)')
     parser.add_argument('--parent_child_tab_path', type=str,
                         help='parent_children.tab')
-    parser.add_argument('--child_column_idx', type=int,
+    parser.add_argument('--child_column_idx', type=int, default=2,
                         help='the column_id of uid in parent_children.tab. Column_id starts from 0. ')
-    parser.add_argument('--parent_column_idx', type=int,
+    parser.add_argument('--parent_column_idx', type=int, default=7,
                         help='the column_id of parent_uid in parent_children.tab. Column_id starts from 0. ')
 
     args = parser.parse_args()
@@ -88,5 +88,10 @@ if __name__ == '__main__':
         shutil.rmtree(output_final_folder)
         os.makedirs(output_final_folder, exist_ok=True)
 
-    doc_id_to_root_dict = load_doc_root_mapping(parent_child_tab_path, child_column_idx, parent_column_idx)
-    rename_to_root(input_private_folder, output_final_folder, doc_id_to_root_dict)
+    if os.path.exists(parent_child_tab_path):
+        doc_id_to_root_dict = load_doc_root_mapping(parent_child_tab_path, child_column_idx, parent_column_idx)
+        rename_to_root(input_private_folder, output_final_folder, doc_id_to_root_dict)
+        # print("Final result in RDF Format is in ", output_final_folder)
+    else:
+        shutil.copy(input_private_folder, output_final_folder)
+        # print("Final result in RDF Format is in ", input_private_folder)
